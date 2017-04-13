@@ -5,7 +5,7 @@
   "author": "Sawaiz Syed asyed5@gsu.edu",
   "main": "server.js",
   "scripts": {
-    "start": "npm install --no-bin-links && nodemon -L --debug=5858 server.js"
+    "start": "npm install"
   },
   "dependencies": {
     "raspi": "*",
