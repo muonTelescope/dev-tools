@@ -14,4 +14,4 @@ if [[ -z $1 || -z $2 ]]; then
 fi
 
 # 0x08 is the address for 
-node -e 'new (require("./mppcHV"))(0x08).setTarget('$1','$2');'
+node -e 'new (require("./mppc-interface/mppc-interface.js"))(0x08).setTarget('$1','$2');'

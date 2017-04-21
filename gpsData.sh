@@ -14,4 +14,4 @@ if [[ -z $1 || -z $2 ]]; then
 fi
 
 # Print out the gps json object that comes back
-node -e 'var NEO6m = require("./neo6m"); var gps = new NEO6m(); while (true) {try {var data = gps.data();} catch (EIO) {console.log("Communication error"); break;} if (data != null) { console.log(data);break; }}'
+node -e 'var NEO6m = require("./neo6m/neo6m.js"); var gps = new NEO6m(); while (true) {try {var data = gps.data();} catch (EIO) {console.log("Communication error"); break;} if (data != null) { console.log(data);break; }}'

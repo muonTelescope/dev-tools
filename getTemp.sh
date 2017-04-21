@@ -9,9 +9,9 @@ fi
 # Check if two variables are defined
 if [[ -z $1 ]]; then
   echo 'Missing parameter channel'
-  echo 'useage: sudo getTarget.sh 0'
+  echo 'useage: sudo getTemp.sh 0'
   exit 1
 fi
 
 # 0x08 is the address for 
-node -e 'new (require("./mppc-interface/mppc-interface.js"))(0x08).readTarget('$1');'
+node -e 'new (require("./mppc-interface/mppc-interface.js"))(0x08).readTemp('$1');'

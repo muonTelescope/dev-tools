@@ -5,8 +5,7 @@ Development and testing tools run from command line and interact directly with t
 The code is copied and trimed down from what is used on the website backend, and is written in javascript. There are bash files that call the functions through nodejs and they make sure it is run with proper permissions and enough arguments.
 
 ## Installation
-
-Install the required packages with 
+Install the required packages (both in the submoudles and outside) with 
 ```bash
 npm install
 ```
