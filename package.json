@@ -8,8 +8,11 @@
     "start": "npm install"
   },
   "dependencies": {
-    "raspi": "*",
-    "raspi-i2c": "*"
+    "coincidence": "muonTelescope/coincidence",
+    "mpl3115a2": "Sawaiz/mpl3115a2",
+    "mppc-interface": "muonTelescope/mppc-interface",
+    "neo6m": "muonTelescope/neo6m",
+    "sht3x": "Sawaiz/sht3x"
   }
 }
 

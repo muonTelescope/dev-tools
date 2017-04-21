@@ -14,4 +14,4 @@ if [[ -z $1 ]]; then
 fi
 
 # 0x08 is the address for 
-node -e 'new (require("./mppc-interface/mppc-interface.js"))(0x08).readTarget('$1');'
+node -e 'new (require("./node_modules/mppc-interface/mppc-interface.js"))(0x08).readTarget('$1');'

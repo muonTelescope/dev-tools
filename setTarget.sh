@@ -13,5 +13,5 @@ if [[ -z $1 || -z $2 ]]; then
   exit 1
 fi
 
-# 0x08 is the address for 
-node -e 'new (require("./mppc-interface/mppc-interface.js"))(0x08).setTarget('$1','$2');'
+# 0x08 is the address for the single channel boards 
+node -e 'new (require("./node_modules/mppc-interface/mppc-interface.js"))(0x08).setTarget('$1','$2');'
