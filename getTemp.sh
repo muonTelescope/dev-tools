@@ -14,4 +14,4 @@ if [[ -z $1 ]]; then
 fi
 
 # 0x08 is the address for the single channel boards 
-node -e 'new (require("./node_modules/mppc-interface/mppc-interface.js"))(0x08).readTemp('$1');'
+node -e 'console.log(new (require("./node_modules/mppc-interface/mppc-interface.js"))(0x08).readTemp('$1'));'
