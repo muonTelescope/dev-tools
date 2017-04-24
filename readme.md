@@ -90,9 +90,16 @@ If a GPS module is populated, running
 ```
 Will return
 ```javascript
-{
-    placeholder
-}
+{ time: 2016-11-14T07:20:12.000Z,
+  latitude: 33.7535,
+  longitude: -84.38733333333333,
+  altitude: 322.9,
+  speedKph: 0.424,
+  trueCourse: 'N/A',
+  PDOP: 12.12,
+  HDOP: 4.79,
+  VDOP: 11.13,
+  vaild: true }
 ```
 ### SHT3X
 SHT3X is a temperature and humidity module.
